@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IM-NeOn Landing Page</title>
+    <style>
+        /* Reset default browser margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set full screen canvas with your SVG background */
+        body, html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Prevents unwanted scrollbars */
+            background-image: url('index.svg');
+            background-size: cover; /* Forces image to span full screen */
+            background-position: center; /* Keeps the SVG centered */
+            background-repeat: no-repeat;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        /* Container that acts as the hover trigger zone in the bottom right */
+        .button-container {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 40px; /* Creates a comfortable invisible hover zone */
+            z-index: 10;
+        }
+
+        /* The button starts hidden (transparent and shifted down) */
+        .repo-button {
+            display: inline-block;
+            padding: 14px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+            background-color: #24292e; /* GitHub dark grey */
+            border: 2px solid #ffffff;
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            
+            /* Hidden state animation setup */
+            opacity: 0.15; /* Subtle hint so users know something is there */
+            transform: translateY(15px); 
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); /* Ultra-smooth glide */
+        }
+
+        /* When the user hovers over the bottom right area, reveal the button */
+        .button-container:hover .repo-button {
+            opacity: 1;
+            transform: translateY(0); /* Glides up into place */
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Extra visual feedback when directly hovering the button itself */
+        .repo-button:hover {
+            background-color: #2f363d;
+            border-color: #0366d6; /* Subtle blue accent shift */
+        }
+
+        /* Active click effect */
+        .repo-button:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="button-container">
+        <a href="https://github.com/vkulaganathan/NeOnCrosstalk" class="repo-button" target="_blank" rel="noopener noreferrer">
+            Click here for IM-NeOn Repository
+        </a>
+    </div>
+
+</body>
+</html>
