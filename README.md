@@ -1,0 +1,1 @@
+This GitHub repository contains the Python scripts, source codes, and expression matrices utilized for the data acquisition, preprocessing, and comparative transcriptomic analysis of Neuroblastoma versus Glioblastoma and SH-SY5Y cell lines.
