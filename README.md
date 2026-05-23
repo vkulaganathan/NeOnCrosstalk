@@ -1,5 +1,5 @@
 <strong>Academic Repository Information</strong>
-<br>Type: Supplementary Material for Bachelor's Thesis (Bachelorarbeit-IM-NeOn: Ein induzierbares Modell zur Untersuchung des Zusammenspiels zwischen neurogener Differenzierung und onkogener Transformation
+<br>Type: Supplementary Material for Bachelor's Thesis <br>(Bachelorarbeit-IM-NeOn: Ein induzierbares Modell zur Untersuchung des Zusammenspiels zwischen neurogener Differenzierung und onkogener Transformation
 )
 <br>Year: 2026
 
