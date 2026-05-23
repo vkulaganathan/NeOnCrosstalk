@@ -1,5 +1,6 @@
 <strong>Academic Repository Information</strong>
-<br>Type: Supplementary Material for Bachelor's Thesis (Bachelorarbeit)
+<br>Type: Supplementary Material for Bachelor's Thesis (Bachelorarbeit-IM-NeOn: Ein induzierbares Modell zur Untersuchung des Zusammenspiels zwischen neurogener Differenzierung und onkogener Transformation
+)
 <br>Year: 2026
 
 This repository functions as the digital appendix for the Bachelor's Thesis authored by Ms. Pauline Vogel supervised by Pr (France), Dr. rer. nat. Vijay K. ULAGANATHAN. 
